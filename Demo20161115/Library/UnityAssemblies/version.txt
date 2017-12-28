@@ -1,0 +1,10 @@
+5.2.3f1:2.3.0.0
+WebPlayer
+D:/u3d5/Editor/Data/Managed/UnityEngine.dll
+D:/u3d5/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll
+D:/u3d5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+D:/u3d5/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+D:/u3d5/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+D:/u3d5/Editor/Data/Managed/UnityEditor.dll
+D:/u3d5/Editor/Data\Managed/Mono.Cecil.dll
+D:/u3d5/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll
