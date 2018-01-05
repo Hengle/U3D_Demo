@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTanks_20171214.CSharp", "MyTanks_20171214.CSharp.csproj", "{F54D93C3-3737-2D0F-99CB-8FD4D59810F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTanks_20171214.CSharp.Editor", "MyTanks_20171214.CSharp.Editor.csproj", "{2832BD9E-24AC-52A4-12B8-9BFF07C603A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F54D93C3-3737-2D0F-99CB-8FD4D59810F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54D93C3-3737-2D0F-99CB-8FD4D59810F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54D93C3-3737-2D0F-99CB-8FD4D59810F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54D93C3-3737-2D0F-99CB-8FD4D59810F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2832BD9E-24AC-52A4-12B8-9BFF07C603A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2832BD9E-24AC-52A4-12B8-9BFF07C603A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2832BD9E-24AC-52A4-12B8-9BFF07C603A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2832BD9E-24AC-52A4-12B8-9BFF07C603A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
