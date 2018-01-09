@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/FairyGUI/Examples/Scenes/Example 16 - LoopList.unity
+  isLoaded: 1
+  isActive: 1
