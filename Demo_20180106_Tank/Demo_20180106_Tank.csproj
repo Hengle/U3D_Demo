@@ -84,6 +84,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Sprites\TankAttack.cs" />
     <Compile Include="Assets\Sprites\TankMovement.cs" />
   </ItemGroup>
   <ItemGroup>
