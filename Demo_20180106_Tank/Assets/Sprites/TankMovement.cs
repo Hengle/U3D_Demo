@@ -6,10 +6,12 @@ public class TankMovement : MonoBehaviour
 {
 
     public float speed = 5;
-
     public float aApeed = 10;// 每秒10度
-
     public float num = 1;
+    public AudioSource moveAudio;// 声音组件
+    public AudioClip engineIdle;// 引擎待机声
+    public AudioClip engineRun;// 引擎启动声
+
     private Rigidbody rigidbody;
 
     // Use this for initialization
