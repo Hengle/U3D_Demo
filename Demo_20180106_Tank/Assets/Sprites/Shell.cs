@@ -31,8 +31,8 @@ public class Shell : MonoBehaviour
         // this.transform.rotation = Quaternion.AngleAxis((float)xRota, Vector3.up);
         Quaternion q = this.transform.rotation;
         Vector3 qv = q.eulerAngles;
-        qv.x = (float)xRota;
-        this.transform.rotation = Quaternion.Euler(-qv);
+        qv.x = (float)-xRota;
+        this.transform.rotation = Quaternion.Euler(qv);
 
         //Debug.Log("x="+ q.z);
         //q[0] = (float)xRota;
