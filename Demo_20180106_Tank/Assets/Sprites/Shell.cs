@@ -41,7 +41,7 @@ public class Shell : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        GameObject.Instantiate(e, this.transform.position, this.transform.rotation);
+        GameObject.Instantiate(e, this.transform.position + Vector3.up, this.transform.rotation);
         GameObject.Destroy(this.gameObject);
 
         if (other.tag == "Tank")
