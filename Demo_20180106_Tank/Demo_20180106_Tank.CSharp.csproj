@@ -88,7 +88,9 @@
     <Compile Include="Assets\Sprites\SelfDestroy.cs" />
     <Compile Include="Assets\Sprites\Shell.cs" />
     <Compile Include="Assets\Sprites\TankAttack.cs" />
+    <Compile Include="Assets\Sprites\TankHealth.cs" />
     <Compile Include="Assets\Sprites\TankMovement.cs" />
+    <Compile Include="Assets\Sprites\UIDirectionControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Bowlby_One\OFL.txt" />
