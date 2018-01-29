@@ -63,11 +63,24 @@ public class TankHealth : MonoBehaviour
 
         this.setSliderHP();
 
-        if (this.nowHp <= 0 || this.isDead)
+        if (this.nowHp <= 0 && !this.isDead)
         {
             // 坦克被毁坏
-
+            onDeadth();
         }
+    }
+    
+    // 坦克毁坏
+    private void onDeadth()
+    {
+        this.isDead = true;
+        explosionParticle.transform.position = this.transform.position;
+        explosionParticle.gameObject.SetActive(true);
+
+        explosionParticle.Play();
+        explosionAudio.Play();
+
+        this.gameObject.SetActive(false);
     }
 
     // 对象第一次刷帧是被调用一次
@@ -76,7 +89,13 @@ public class TankHealth : MonoBehaviour
 
     }
 
-    // 
+    // 每帧都执行
+    void FixedUpdate()
+    {
+
+    }
+
+    // 并不是每帧都刷新，在机器性能不足时，可能不刷新
     void Update()
     {
 

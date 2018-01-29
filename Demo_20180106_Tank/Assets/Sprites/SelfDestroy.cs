@@ -6,7 +6,7 @@ public class SelfDestroy : MonoBehaviour
 {
 
     // 生存时间
-    public float time = 5;
+    public float time = 2;
 
     // Use this for initialization
     void Start()
