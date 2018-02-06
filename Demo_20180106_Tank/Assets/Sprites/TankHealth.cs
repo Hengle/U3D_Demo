@@ -16,7 +16,9 @@ public class TankHealth : MonoBehaviour
     public GameObject explosionPrefab;// 爆炸特效对象
 
     // 当前血量 
-    private float nowHp
+    private float nowHp = 100;
+
+    public float NowHp
     {
         set
         {
@@ -26,7 +28,6 @@ public class TankHealth : MonoBehaviour
             }
             this.nowHp = value;
         }
-
         get
         {
             return this.nowHp;
@@ -59,10 +60,10 @@ public class TankHealth : MonoBehaviour
 
     public void TakeDamage(float hurt)
     {
-        this.nowHp -= hurt;
-
+       this.NowHp -= hurt;
         this.setSliderHP();
 
+        Debug.Log("当前生命值：" + this.nowHp);
         if (this.nowHp <= 0 && !this.isDead)
         {
             // 坦克被毁坏
@@ -86,7 +87,8 @@ public class TankHealth : MonoBehaviour
     // 对象第一次刷帧是被调用一次
     void Start()
     {
-
+        // 设置血量条
+        this.setSliderHP();
     }
 
     // 每帧都执行
