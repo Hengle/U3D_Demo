@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-/**
-坦克生命值管理
-*/
+/// <summary>
+/// 坦克健康控制类
+/// </summary>
 public class TankHealth : MonoBehaviour
 {
 
