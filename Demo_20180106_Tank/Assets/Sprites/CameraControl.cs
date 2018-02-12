@@ -9,7 +9,7 @@ public class CameraControl : MonoBehaviour
     public float moveTime = 0.2f;// 摄像机移动时间
     public float zoomTime = 0.2f;// 摄像机缩放的时间
     // [HideInInspector] public Transform[] m_Targets; 
-    [HideInInspector]
+    [System.NonSerialized]// 不保存序列化文件，HideInInspector只是在面板隐藏
     public GameObject[] tanks; // 坦克列表，HideInInspector 表示将原本显示在面板inspector上的序列化值隐藏起来。
 
     private Vector3 moveSpeed;// 摄像机移动速度
